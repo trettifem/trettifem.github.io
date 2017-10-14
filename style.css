@@ -1,0 +1,143 @@
+body {
+  background-color: #005744;
+}
+
+.app {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+}
+
+.left {
+  width: 65vw;
+  min-height: 100vh;
+  background-color: #005744;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.left .vote{
+  margin-top: 100px;
+  width: 80%;
+}
+.left h2{
+  color: #ffd830;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+.left a{
+  color: white;
+  text-decoration: underline;
+}
+.left .distrubution {
+  margin-top: 15px;
+  color: #ffd830;
+  word-spacing: 8px;
+}
+
+.left .partyparty {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left .partyparty-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left .partyparty-inner .partylogo {
+  width: 50px;
+  height: 50px;
+  filter: opacity(0.70);
+}
+
+.left .partyparty-inner .partyvote {
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.right {
+  position: fixed;
+  right: 0;
+  width: 35vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 70px;
+  margin-bottom: 30px;
+  height: 160px;
+}
+
+.right h1 {
+  width: 75%;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+
+.right h1 {
+  width: 75%;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+
+.menu {
+  font-size: 17px;
+}
+
+.right a, .right a:link, .right a:visited {
+  color: #005744;
+}
+
+.articles a, .articles a:link, .articles a:visited {
+  color: #005744;
+}
+
+.articles h2 {
+  color: #000000;
+  margin-bottom: 0;
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+
+.articles p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.articles {
+  margin-top: 30px;
+  width: 80%
+}
+
+
+
+.button a {
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid #005744;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #005744;
+}
+
+.button a, .button a:link, .button a:visited {
+    color: #005744;
+}
+
+.button {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
