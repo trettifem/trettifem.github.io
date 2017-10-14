@@ -14,10 +14,6 @@ title: TrettiFem
         rel="stylesheet">
 </head>
 <body>
-{{site.parties}}
-{% for item in site.parties %}
-  {{ item }}
-{% endfor %}
 <div class="app">
   <div class="left">
     <div class="vote">
@@ -25,38 +21,12 @@ title: TrettiFem
       <a href="#">Mer informasjon om saken</a>
       <div class="distrubution">■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □</div>
       <div class="partyparty">
+        {% for party in site.parties %}
         <div class="partyparty-inner">
-          <img src="gjestelista.png" title="Gjestelista" class="partylogo" />
+          <img src="{{party.logo}}" title="{{party.navn}}" class="partylogo" />
           <img src="thumbs-up.svg" class="partyvote" />
         </div>
-        <div class="partyparty-inner">
-          <img src="byogvel.svg" title="By og velferdslista" class="partylogo" />
-          <img src="thumbs-down.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="liberalliste.svg" title="Liberal liste" class="partylogo" />
-          <img src="thumbs-up.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="alista.svg" title="A lista" class="partylogo" />
-          <img src="thumbs-down.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="blaliste.svg" title="Blå liste" class="partylogo" />
-          <img src="thumbs-up.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="gronnliste.svg" title="Grønn list" class="partylogo" />
-          <img src="thumbs-down.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="venstrealliansen.svg" title="Venstrealliansen" class="partylogo" />
-          <img src="thumbs-down.svg" class="partyvote" />
-        </div>
-        <div class="partyparty-inner">
-          <img src="Realistlista_logo_grnn.svg" title="Realistlista" class="partylogo" />
-          <img src="thumbs-down.svg" class="partyvote" />
-        </div>
+        {% endfor %}
       </div>
     </div>
     <div class="vote">
