@@ -32,7 +32,11 @@ title: TrettiFem
         {% for party in site.parties %}
         <div class="partyparty-inner">
           <img src="{{party.logo}}" title="{{party.navn}}" class="partylogo" />
+          {% if vote.for contains party.id %}
           <img src="thumbs-up.svg" class="partyvote" />
+          {% else %}
+          <img src="thumbs-down.svg" class="partyvote" />
+          {% endif %}
         </div>
         {% endfor %}
       </div>
