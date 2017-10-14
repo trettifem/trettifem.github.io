@@ -1,6 +1,3 @@
-
-
-
 parties:
   - id: 1,
     name: Gjestelista,
@@ -26,3 +23,26 @@ parties:
   - id: 8,
     name: Realistlista,
     logo: 'Realistlista_logo_grnn.svg'
+
+votes:
+  - id: 1
+    title: '7498: Større pikk til folket'
+    href: '#'
+    votes: 18
+    totalVotes: 35
+    for:
+      - 1
+      - 2
+      - 3
+      - 7
+  - id: 2
+    title: '2331: Ja til lavere studiestøtte så lenge regjeringen er rødgrønn'
+    href: '#'
+    votes: 18
+    totalVotes: 35
+    for:
+      - 2
+      - 4
+      - 6
+      - 7
+      - 8
