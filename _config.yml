@@ -1,0 +1,46 @@
+votes: [
+
+]
+
+parties: [
+  {
+    id: 1,
+    name: Gjestelista,
+    logo: 'gjestelista.png'
+  }
+  {
+    id: 2,
+    name: By og velferdslistaa,
+    logo: 'byogvel.svg'
+  }
+  {
+    id: 3,
+    name: Liberal liste,
+    logo: 'liberalliste.svg'
+  }
+  {
+    id: 4,
+    name: A-lista,
+    logo: 'alista.svg'
+  }
+  {
+    id: 5,
+    name: Blå liste,
+    logo: 'blaliste.svg'
+  }
+  {
+    id: 6,
+    name: Grønn liste,
+    logo: 'gronnliste.svg'
+  }
+  {
+    id: 7,
+    name: Venstrealliansen,
+    logo: 'venstrealliansen.svg'
+  }
+  {
+    id: 8,
+    name: Realistlista,
+    logo: 'Realistlista_logo_grnn.svg'
+  }
+]
