@@ -26,7 +26,7 @@ parties:
 
 votes:
   - id: 1
-    title: '7498: Større pikk til folket'
+    title: '7498: En sak'
     href: '#'
     votes: 18
     totalVotes: 35
@@ -36,7 +36,7 @@ votes:
       - 3
       - 7
   - id: 2
-    title: '2331: Ja til lavere studiestøtte så lenge regjeringen er rødgrønn'
+    title: '2331: Enda en sak'
     href: '#'
     votes: 15
     totalVotes: 32
